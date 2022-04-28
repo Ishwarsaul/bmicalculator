@@ -1,0 +1,80 @@
+*{margin: 0; padding: 0;font-family: 'Ariel', serif;}
+.container{
+     display: grid;
+     justify-content: center; /*this centers the page*/
+     align-content: center;  /*this also centers the page*/
+     min-height: 100vh;
+     grid-template-columns: 50vw;
+     grid-template-rows: repeat(3,10vh) 5vh repeat(2,10vh);
+     grid-gap: 10px;
+
+}
+
+body{
+    background: white;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+.submit-btn{
+    background-color: turquoise;
+}
+.bmi-value{
+    background-color: violet;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.status{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+}
+.container > div{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    outline: 2px dotted black;
+
+}
+button,input{
+    min-width: 100%;
+    min-height: 100%;
+    border: outset;
+    outline: none;
+    font-size: 1.5vw;
+    border-radius: 8px;
+}
+input{
+    background: #ffdd99;
+    text-indent: 0.5em;
+    max-width:100% ;
+    color: black;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+button{
+    background: lightblue;
+    cursor: pointer;
+}
+button:hover{
+    background: #c70039;
+    color: white;
+}
+background-image: url(/image/building.jpg);
+background-repear: no-repeat;
+width: 10px;
+height: 20px;
+
+}
